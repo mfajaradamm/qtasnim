@@ -21,6 +21,7 @@ SELECT nama FROM alattulis;
 
 -- 3. Update
 UPDATE alattulis SET harga = 'Rp.20.000' WHERE id = 4;
+UPDATE alattulis SET name = 'pensil warna' WHERE id = 4;
 
 -- 4. Delete
 DELETE FROM alattulis WHERE nama = 'penghapus';
